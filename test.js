@@ -188,7 +188,8 @@ async function actionDraw() {
     
     // Désactiver le bouton pendant la requête
     drawButton.disabled = true;
-
+    
+    //Réactivé dans le bloc finally pour garantir que le bouton est remis dans son état initial, même en cas d'erreur.
     try {
         // Effectuer la requête pour piocher une carte
         const drawCardResponse = await drawCard();
