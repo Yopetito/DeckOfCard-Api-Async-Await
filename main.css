@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* actions */
+#back-card {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-bottom: 45px;
+}
+
+.back-card-img {
+    width: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.3s ease;
+}
+
+#actions-container {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+button {
+    border-radius: 7px;
+    padding: 20px;
+    width: 170px;
+    font-size: 2em;
+    font-family: Calibri;
+}
+
+/* cards */
+
+#cards-container {
+    padding: 0 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 170px;
+}
+
+#topcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.suit-div {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-left: 100px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.suit-div p {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.suit-div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#heartdiv {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-left: 100px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#heartdiv p {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#heartdiv img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+#clubdiv {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-left: 100px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#clubdiv p {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#clubdiv img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#spadediv {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-left: 100px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#spadediv p {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#spadediv img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#diamonddiv {
+    position: relative;
+    width: 170px;
+    height: 236px;
+    margin-left: 100px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#diamonddiv p {
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#diamonddiv img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
